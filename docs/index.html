@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Age calculator</title>
+  <link rel="icon" type="image/png" href="./favicon.png" />
+
+  
+  <meta property="og:title" content="Calculadora de Edad" />
+  <meta property="og:description"
+  content="Calcular su edad respecto a la fecha actual. Solo ingrese su fecha de nacimiento." />
+  <meta name="description" content="Calcular su edad respecto a la fecha actual. Solo ingrese su fecha de nacimiento.">
+  <meta property="og:image"
+    content="./cover.jpg" />
+  <script type="module" crossorigin src="/age-calculator/assets/index-1a59fe86.js"></script>
+  <link rel="stylesheet" href="/age-calculator/assets/index-2e2f0cff.css">
+</head>
+
+<body>
+  <div class="wrapper" id="wrapper">
+
+    <div class="card">
+      <div class="text">
+        <h1>Calculadora de Edad</h1>
+        <p>Para calcular su edad debe ingresar su fecha de nacimiento a continuación.</p>
+        <p>La fecha que debe ser menor a la actual.</p>
+      </div>
+      <div id="message" class="message">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sint.
+      </div>
+      <div class="calendar">
+        <input type="date" name="born-date" id="bornDate" inputmode="none">
+      </div>
+      <div class="boxes">
+        <div class="box">
+          <div class="number" id="years">0</div>
+          <div class="text-date">Años</div>
+        </div>
+        <div class="box">
+          <div class="number" id="months">0</div>
+          <div class="text-date">Meses</div>
+        </div>
+        <div class="box">
+          <div class="number" id="days">0</div>
+          <div class="text-date">Días</div>
+        </div>
+      </div>
+      <button id="btnCalculate">Calcular Edad</button>
+    </div>
+
+    <footer>
+      <p class="declaim">Este sitio no alamcena ni comparte de ninguna forma la información que usted ingresa en el formulario.</p>
+      <p>Felipe JQ - <a href="https://github.com/felipejoq/age-calculator">Repository</a></p>
+    </footer>
+  </div>
+  
+</body>
+
+</html>
