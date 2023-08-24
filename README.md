@@ -4,11 +4,11 @@ Una simple aplicación que permite al usuario ingresar su fecha de nacimiento y 
 
 👉 [Live Demo](https://felipejoq.github.io/age-calculator) 📝
 
-## Conocimientos reforzados
+## 🚀 Conocimientos reforzados
 
 Manejo de fechas, calculos y funciones matemáticas de JavaScript, módulos, elementos HTML, CSS, entre otros varios.
 
-## Para ejecutar en desarrollo
+## 👨‍💻 Para ejecutar en desarrollo
 
 - Clonar el repositorio:
 
